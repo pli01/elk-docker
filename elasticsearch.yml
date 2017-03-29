@@ -53,9 +53,9 @@
 #
 # network.host: 192.168.0.1
 network.host:
-  - _local_
-  - _site_
-transport.host: _local_
+  - _lo:ipv4_
+transport.host:
+  - _lo:ipv4_
 #
 # Set a custom port for HTTP:
 #
